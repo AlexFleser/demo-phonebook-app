@@ -136,6 +136,7 @@ const ContactList: React.FC<ContactListProps> = ({
     setNameError("");
     setPhoneNumberError("");
     setShowEditModal(false);
+    setIsViewForm(false);
   };
 
   const handleSaveEdit = () => {
