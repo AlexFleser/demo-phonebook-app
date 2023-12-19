@@ -34,7 +34,7 @@ const EditContactModal: React.FC<EditContactModalProps> = ({
     <Modal show={show} onHide={onClose}>
       <Modal.Header closeButton>
         <Modal.Title>
-          {isNewContact ? "New Contact" : "Edit Contact"}
+          {isViewForm ? "View Contact" : isNewContact ? "New Contact" : "Edit Contact"}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
